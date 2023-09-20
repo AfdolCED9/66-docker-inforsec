@@ -21,7 +21,7 @@ services:
       - PGADMIN_DEFAULT_PASSWORD=${PGADMIN_DEFAULT_PASSWORD}
 
   strapi:
-    image: afdol/myapp:1.0
+    image: dolafdol/strapi_afdol:latest
 
     container_name: strapi
     ports:
